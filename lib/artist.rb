@@ -18,6 +18,7 @@ attr_reader :name
   def genres
      genre_array = songs.map { |song|
       song.genre
+      binding.pry
 
     }
     genre_array
