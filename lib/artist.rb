@@ -16,11 +16,6 @@ attr_reader :name
     Song.new(name,self,genre)
   end
   def genres
-     genre_array = songs.map { |song|
-      song.genre
-      binding.pry
-
-    }
-    genre_array
+    songs.genre
   end
 end
