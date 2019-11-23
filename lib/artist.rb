@@ -16,6 +16,6 @@ attr_reader :name
     Song.new(name,self,genre)
   end
   def genres
-    songs.genre
+    songs.map {|song| song.genre}
   end
 end
