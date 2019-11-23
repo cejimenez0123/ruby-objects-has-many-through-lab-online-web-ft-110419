@@ -12,6 +12,6 @@ class Song
     @@all
   end
   def genre
-    self.genre
+    
   end
 end
