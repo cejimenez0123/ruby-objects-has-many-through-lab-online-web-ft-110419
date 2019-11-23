@@ -11,7 +11,7 @@ class Song
   def self.all
     @@all
   end
-  def genre(genre)
-    self.genre = genre
+  def genre
+    self.genre 
   end
 end
